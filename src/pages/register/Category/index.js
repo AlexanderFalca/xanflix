@@ -1,90 +1,128 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
-import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import { FiTrash2 } from 'react-icons/fi';
+import useForm from '../../../hooks/useForm';
+import './styles.css';
 
 function CategoryRegister() {
-  const initialValue = {
-    name: '',
-    description: '',
-    color: '',
+  const URL = window.location.hostname.includes('localhost')
+    ? 'http://localhost:8080/categorias'
+    : 'https://lucasflix-api.herokuapp.com/categorias';
+
+  const valoresIniciais = {
+    titulo: '',
+    descricao: '',
+    cor: '',
   };
+  const [categorias, setCategorias] = useState([]);
+  const { handleChange, valores, clearForm } = useForm(valoresIniciais);
+  const history = useHistory();
+  // console.log('nome categoria-----'+nomeDaCategoria);
 
-  const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(initialValue);
+  async function handleNewcategoria(e) {
+    e.preventDefault();
 
-  function setValue(key, value) {
-    // chave: nome, descricao, bla, bli
-    setValues({
-      ...values,
-      [key]: value, // nome: 'value'
-    });
+    try {
+      await fetch(URL, {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(valores),
+      });
+    } catch (err) {
+      alert('Erro ao cadastrar caso, tente novamente');
+    }
+    setCategorias([...categorias, valores]);
+    history.push('/');
+    clearForm();
   }
 
-  function handleChange(eventInfo) {
-    setValue(eventInfo.target.getAttribute('name'), eventInfo.target.value);
+  async function handleDeleteCategoria(id) {
+    /*  try {
+    await fetch(`${URL}/${id}`, {
+      method: 'DELETE',
+    });
+    console.log("------------" + id);
+    setCategorias(categorias.filter(categoria => categoria.id !== id));
+  } catch (err) {
+    alert('Erro ao deletar caso, tente novamente')
+  } */
+    alert('Desabilitado por que estava excluindo tudo rsrsrsrs');
   }
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categories';
-      fetch(URL).then(async (severAnswer) => {
-        if (severAnswer.ok) {
-          const answer = await severAnswer.json();
-          setCategories(answer);
-          return;
-        }
-        throw new Error('Unable to load Data.');
-      });
-    }
+    fetch(URL).then(async (response) => {
+      if (response.ok) {
+        const result = await response.json();
+        setCategorias(result);
+        return;
+      }
+      throw new Error('Não foi possível pegar os dados');
+    });
   }, []);
 
   return (
     <PageDefault>
-      <h1> Category Registration</h1>
+      <div>
+        <h1>Cadastro de Categoria: {valores.titulo} </h1>
 
-      <form
-        onSubmit={function handleSubmit(eventInfo) {
-          eventInfo.preventDefault();
-          setCategories([...categories, values]);
+        <form onSubmit={handleNewcategoria}>
+          <FormField
+            label="Titulo da Categoria"
+            name="titulo"
+            type="text"
+            value={valores.titulo}
+            onChange={handleChange}
+          />
 
-          setValues(initialValue);
-        }}
-      >
-        <FormField
-          label="Category Name"
-          type="text"
-          name="name"
-          value={values.name}
-          onChange={handleChange}
-        />
-        <FormField
-          label="Description"
-          type="text"
-          name="description"
-          value={values.description}
-          onChange={handleChange}
-        />
+          <FormField
+            label="Descrição"
+            name="descricao"
+            type="textarea"
+            value={valores.descricao}
+            onChange={handleChange}
+          />
 
-        <FormField
-          label="Color"
-          type="color"
-          name="color"
-          value={values.color}
-          onChange={handleChange}
-        />
+          <FormField
+            label="Cor"
+            type="color"
+            name="cor"
+            value={valores.cor}
+            onChange={handleChange}
+          />
 
-        <Button>Add</Button>
-      </form>
+          <Button>Cadastrar</Button>
+        </form>
+      </div>
 
-      {categories.length === 0 && <div>Loading... </div>}
+      <div className="container">
+        <h1>Categorias cadastradas</h1>
 
-      <ul>
-        {categories.map((category, index) => {
-          return <li key={`${category}${index}`}>{category.name}</li>;
-        })}
-      </ul>
+        <ul>
+          {categorias.map((categoria) => (
+            <li key={categoria.titulo}>
+              <strong>Titulo</strong>
+              <p>{categoria.titulo}</p>
+
+              <strong>Descrição</strong>
+              <p>{categoria.descricao}</p>
+
+              <strong>Cor</strong>
+              <p>{categoria.cor}</p>
+
+              <button onClick={() => handleDeleteCategoria(categoria.id)}>
+                <FiTrash2 size={20} color="#a8a8b3" />
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <Link to="/">Back Home</Link>
     </PageDefault>
   );
