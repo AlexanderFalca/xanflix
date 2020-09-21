@@ -2,30 +2,36 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "StandUp",
-      "descricao": "Categoria de StandUp",
-      "cor": "#00C86F",
-      "link_extra": {}
+      "titulo": "The best English Teacher",
+      "descricao": "",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Canguro English",
+        "url": "https://www.youtube.com/c/Canguroenglish/featured"
+      }
     },
     {
       "id": 2,
-      "titulo": "Business Intelligence",
-      "descricao": "Categoria de Business Intelligence",
-      "cor": "#6b5be2",
-      "link_extra": {}
+      "titulo": "Amazing English Teachers",
+      "descricao": "",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "English in Brazil",
+        "url": "https://www.youtube.com/user/carinafragozo"
+      }
     },
     {
       "id": 3,
-      "titulo": "Code",
-      "descricao": "Categoria de Code",
-      "cor": "red",
+      "titulo": "Fantastic Learning English Channels",
+      "descricao": "",
+      "cor": "#9cd33b",
       "link_extra": {}
     },
     {
       "id": 4,
-      "titulo": "Data Science e Inteligência Artificial",
-      "descricao": "Categoria de Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Educational songs and videos for children",
+      "descricao": "",
+      "cor": "red",
       "link_extra": {
         "text": "Cursos de Data Science na Alura",
         "url": "https://www.alura.com.br/formacao-data-science"
@@ -33,15 +39,9 @@
     },
     {
       "id": 5,
-      "titulo": "Series",
-      "descricao": "Categoria de Series",
-      "cor": "orange"
-    },
-    {
-      "id": 6,
-      "titulo": "Música",
-      "descricao": "Categoria de música",
-      "cor": "#4285f4",
+      "titulo": "Study English in Ireland",
+      "descricao": "",
+      "cor": "#6b5be2",
       "link_extra": {}
     }
   ],
@@ -49,134 +49,182 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "THIAGO VENTURA - TIGAS E OS 300 DE ESPARTA l Legendado",
-      "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
+      "titulo": "ISE Waterford",
+      "url": "https://www.youtube.com/watch?v=oIGAfG8T9i4"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "Rodrigo Marques - Especial de Comédia - O Problema é Meu - Stand Up Comedy",
-      "url": "https://www.youtube.com/watch?v=xaq5wV24TH0"
+      "titulo": "Everybody hates studying English",
+      "url": "https://www.youtube.com/watch?v=n6ZzcpvZ1KM&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=6"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "AFONSO PADILHA - VOCÊ FAZ O QUE VOCÊ GOSTA?",
-      "url": "https://www.youtube.com/watch?v=WdjUwA648Uo"
+      "titulo": "The power of education ",
+      "url": "https://www.youtube.com/watch?v=nDU6P-Kr0dI&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=19"
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "titulo": "ESPECIAL DE COMÉDIA - TRAGO VERDADES com Emerson Ceará (Episódio 1)",
-      "url": "https://www.youtube.com/watch?v=ID8_S_ngtuk"
+      "titulo": "How to get motivated to learn English",
+      "url": "https://www.youtube.com/watch?v=04Zwawgsr_s&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=13"
     },
     {
       "id": 5,
-      "categoriaId": 2,
-      "titulo": "What is Tableau? | A Tableau Overview",
-      "url": "https://www.youtube.com/watch?v=YfE9jBq002s"
+      "categoriaId": 1,
+      "titulo": "Kill your fear and speak English with confidence",
+      "url": "https://www.youtube.com/watch?v=aUStxPJ5z_Y&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=20"
     },
     {
       "id": 6,
-      "categoriaId": 2,
-      "titulo": "TC18 Tip Battle Round 2 Tableau Version 9",
-      "url": "https://www.youtube.com/watch?v=kFUmuGlux-0"
+      "categoriaId": 1,
+      "titulo": "How to LOVE studying English ",
+      "url": "https://www.youtube.com/watch?v=IlGIuJC1C6I&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=10"
     },
     {
       "id": 7,
-      "categoriaId": 2,
-      "titulo": "Curso Básico de Power BI - Aula 01",
-      "url": "https://www.youtube.com/watch?v=merUYMASzWw"
+      "categoriaId": 1,
+      "titulo": "Overcome your fear of speaking English",
+      "url": "https://www.youtube.com/watch?v=90DlhcJFLA4&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=21"
     },
     {
       "id": 8,
-      "categoriaId": 3,
-      "titulo": "Introdução a programação Reativa - Pokedéx Reativo #1",
-      "url": "https://www.youtube.com/watch?v=7DbPSiA4ENg&t=14s"
+      "categoriaId": 2,
+      "titulo": "ADJECTIVES / VOCABULARY",
+      "url": "https://www.youtube.com/watch?v=htNtlWO6eFA"
     },
     {
       "id": 9,
-      "categoriaId": 3,
-      "titulo": "Selenium com Python #00 - Abertura do curso",
-      "url": "https://www.youtube.com/watch?v=PHHXksljGNA&t=192s"
+      "categoriaId": 2,
+      "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNCIONA 95% DAS VEZES!",
+      "url": "https://www.youtube.com/watch?v=5gkZWcp_a08"
     },
     {
       "id": 10,
-      "categoriaId": 3,
-      "titulo": "Python na Prática fazendo Web Scraping (de JavaScript dinâmico) // Mão no Código #28",
-      "url": "https://www.youtube.com/watch?v=Vxl5jUltHBo&t=374s"
+      "categoriaId": 2,
+      "titulo": "30 DAY ENGLISH CHALLENGE",
+      "url": "https://www.youtube.com/watch?v=jBuTQq-5Cio"
     },
     {
       "id": 11,
-      "categoriaId": 4,
-      "titulo": "Curso Python #01 - Seja um Programador",
-      "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
+      "categoriaId": 2,
+      "titulo": "10 PALAVRAS DIFÍCEIS EM INGLÊS",
+      "url": "https://www.youtube.com/watch?v=BMOVlBBBaso"
     },
     {
       "id": 12,
-      "categoriaId": 4,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "categoriaId": 2,
+      "titulo": "Learn 7 Time Expressions in English",
+      "url": "https://www.youtube.com/watch?v=KMcqjhsVYEI"
     },
     {
       "id": 13,
-      "categoriaId": 4,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "categoriaId": 2,
+      "titulo": "18 erros comuns (básico ao avançado)",
+      "url": "https://www.youtube.com/watch?v=OtPFRtN-MVY"
     },
     {
       "id": 14,
-      "categoriaId": 4,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "categoriaId": 2,
+      "titulo": "60 Incredibly Useful Phrases",
+      "url": "https://www.youtube.com/watch?v=j_mMowcN0Fs"
     },
     {
       "id": 15,
-      "categoriaId": 5,
-      "titulo": "Breaking Bad",
-      "url": "https://www.youtube.com/watch?v=VaOt6tXyf2Y"
+      "categoriaId": 3,
+      "titulo": "200 English Words for Everyday Life",
+      "url": "https://www.youtube.com/watch?v=QedESClk7MA"
     },
     {
       "id": 16,
-      "categoriaId": 5,
-      "titulo": "Dark",
-      "url": "https://www.youtube.com/watch?v=JkUWmxhtU4E"
+      "categoriaId": 3,
+      "titulo": "Houston, we have a problem",
+      "url": "https://www.youtube.com/watch?v=Zb3NR1fEzbA"
     },
     {
       "id": 17,
-      "categoriaId": 5,
-      "titulo": "Mr. Robot",
-      "url": "https://www.youtube.com/watch?v=N6HGuJC--rk"
+      "categoriaId": 3,
+      "titulo": "Learn Dating Vocabulary in English",
+      "url": "https://www.youtube.com/watch?v=4eGAY5limm4"
     },
     {
       "id": 18,
-      "categoriaId": 5,
-      "titulo": "Better Call Saul",
-      "url": "https://www.youtube.com/watch?v=FAdiEjeNRi0"
+      "categoriaId": 3,
+      "titulo": "How to talk about conspiracy theories",
+      "url": "https://www.youtube.com/watch?v=69o1qyxZBuw"
     },
     {
       "id": 19,
-      "categoriaId": 6,
-      "titulo": "Marcelo Falcão - Viver (Clipe Oficial)",
-      "url": "https://www.youtube.com/watch?v=OMOVBjrv2-w"
+      "categoriaId": 3,
+      "titulo": "How To Tell A Scary Story In English?",
+      "url": "https://www.youtube.com/watch?v=W0NtHUjh2bA"
     },
     {
       "id": 20,
-      "categoriaId": 6,
-      "titulo": "Charlie Brown Jr. - Só os Loucos Sabem (Video Clipe)",
-      "url": "https://www.youtube.com/watch?v=JRJj4z-prvM"
+      "categoriaId": 4,
+      "titulo": "Pizza Party + More",
+      "url": "https://www.youtube.com/watch?v=4icFRz0T0wM"
     },
     {
       "id": 21,
-      "categoriaId": 6,
-      "titulo": "Red Hot Chili Peppers - Otherside [Official Music Video]",
-      "url": "https://www.youtube.com/watch?v=rn_YodiJO6k"
+      "categoriaId": 4,
+      "titulo": "Fun English The Body Class",
+      "url": "https://www.youtube.com/watch?v=UcLhNv-1hHQ"
     },
     {
-      "id": 21,
-      "categoriaId": 6,
-      "titulo": "O Rappa e Rapadura - Reza Vela / Nordeste me Veste [Acústico na Oficina Francisco Brennand]",
-      "url": "https://www.youtube.com/watch?v=JR8Cl7hRn8M"
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Nessy Writing Strategy | Irregular Verbs",
+      "url": "https://www.youtube.com/watch?v=aj632WmQnZc "
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Silent e",
+      "url": "https://www.youtube.com/watch?v=mnanlcyRuuI&list=PLdSZCpxQMJcMxklv8VHzaD_15d1VUx8Rl&index=3"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Fun English The Body Class",
+      "url": "https://www.youtube.com/watch?v=UcLhNv-1hHQ"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Letter A Song",
+      "url": "https://www.youtube.com/watch?v=_6Jz0Jp4XBY&list=PLdSZCpxQMJcMxklv8VHzaD_15d1VUx8Rl"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "ISE Waterford",
+      "url": "https://www.youtube.com/watch?v=oIGAfG8T9i4"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "ISE Live English Courses",
+      "url": "https://www.youtube.com/watch?v=0X_tf5B9qiI"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Por que todos deveriam sair do Brasil?",
+      "url": "https://www.youtube.com/watch?v=RAc2_clhWRk&feature=youtu.be"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "Coisas que pensamos que só acontecem com os outros",
+      "url": "https://www.youtube.com/watch?v=QrakjIIdAnA"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Intercâmbio em Galway, Irlanda",
+      "url": "https://www.youtube.com/watch?v=rFs19VEcIJ0&feature=youtu.be"
     }
   ]
 }

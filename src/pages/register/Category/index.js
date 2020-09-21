@@ -10,7 +10,7 @@ import './styles.css';
 function CategoryRegister() {
   const URL = window.location.hostname.includes('localhost')
     ? 'http://localhost:8080/categorias'
-    : 'https://lucasflix-api.herokuapp.com/categorias';
+    : 'https://xanflix-api.herokuapp.com/categorias';
 
   const valoresIniciais = {
     titulo: '',
@@ -52,7 +52,7 @@ function CategoryRegister() {
   } catch (err) {
     alert('Erro ao deletar caso, tente novamente')
   } */
-    alert('Desabilitado por que estava excluindo tudo rsrsrsrs');
+    alert('Manutenção');
   }
 
   useEffect(() => {

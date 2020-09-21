@@ -8,7 +8,6 @@ import VideoRegister from './pages/register/Video';
 import CategoryRegister from './pages/register/Category';
 import Erro from './pages/Erro';
 
-const Page404 = () => <div>Page 404</div>;
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,9 +15,9 @@ ReactDOM.render(
       <Route path="/" component={Home} exact />
       <Route path="/register/video" component={VideoRegister} />
       <Route path="/register/category" component={CategoryRegister} />
-      <Route component={Page404} />
-      <Erro />
+      <Route component={Erro} />
     </Switch>
-  </BrowserRouter>,
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );

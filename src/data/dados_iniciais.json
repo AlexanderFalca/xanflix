@@ -1,183 +1,185 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "The best English Teacher",
+      "link": "",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Canguro English",
+        "url": "https://www.youtube.com/c/Canguroenglish/featured"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "ISE Waterford - Discover Waterford",
+          "url": "https://www.youtube.com/watch?v=0qavjPmzaTY"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Everybody hates studying English",
+          "url": "https://www.youtube.com/watch?v=n6ZzcpvZ1KM&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=6"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "The power of education ",
+          "url": "https://www.youtube.com/watch?v=nDU6P-Kr0dI&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=19"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "How to get motivated to learn English",
+          "url": "https://www.youtube.com/watch?v=04Zwawgsr_s&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=13"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Kill your fear and speak English with confidence",
+          "url": "https://www.youtube.com/watch?v=aUStxPJ5z_Y&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=20"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "How to LOVE studying English ",
+          "url": "https://www.youtube.com/watch?v=IlGIuJC1C6I&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=10"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Overcome your fear of speaking English",
+          "url": "https://www.youtube.com/watch?v=90DlhcJFLA4&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=21"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "How to get fluent in 30 days",
+          "url": "https://www.youtube.com/watch?v=B7F_f46J7Ew&list=PLmIoa_Hs27lPY6WVayEvZAxL3D9AW5f50&index=3"
         }
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Amazing English Teachers",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "English in Brazil",
+        "url": "https://www.youtube.com/user/carinafragozo"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "ADJECTIVES / VOCABULARY",
+          "url": "https://www.youtube.com/watch?v=htNtlWO6eFA"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "MAGIC E: A REGRA DO INGLÊS QUE FUNCIONA 95% DAS VEZES!",
+          "url": "https://www.youtube.com/watch?v=5gkZWcp_a08"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "30 DAY ENGLISH CHALLENGE",
+          "url": "https://www.youtube.com/watch?v=jBuTQq-5Cio"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "10 PALAVRAS DIFÍCEIS EM INGLÊS",
+          "url": "https://www.youtube.com/watch?v=BMOVlBBBaso"
         },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Learn 7 Time Expressions in English",
+          "url": "https://www.youtube.com/watch?v=KMcqjhsVYEI"
+        },
+        {
+          "titulo": "18 erros comuns (básico ao avançado)",
+          "url": "https://www.youtube.com/watch?v=OtPFRtN-MVY"
+        },
+        {
+          "titulo": "60 Incredibly Useful Phrases",
+          "url": "https://www.youtube.com/watch?v=j_mMowcN0Fs"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Fantastic Learning English Channels",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "BBC Learning English",
+        "url": "https://www.youtube.com/channel/UCHaHD477h-FeBbVh9Sh7syA"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "200 English Words for Everyday Life",
+          "url": "https://www.youtube.com/watch?v=QedESClk7MA"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Houston, we have a problem",
+          "url": "https://www.youtube.com/watch?v=Zb3NR1fEzbA"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Learn Dating Vocabulary in English",
+          "url": "https://www.youtube.com/watch?v=4eGAY5limm4"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "How to talk about conspiracy theories",
+          "url": "https://www.youtube.com/watch?v=69o1qyxZBuw"
+        },
+        {
+          "titulo": "How To Tell A Scary Story In English?",
+          "url": "https://www.youtube.com/watch?v=W0NtHUjh2bA"
+        },
+        {
+          "titulo": "How to Speak English Fast with Advanced Grammar",
+          "url": "https://www.youtube.com/watch?v=UyFP6d2InkE"
+        },
+        {
+          "titulo": "IF ONLY - Meaning and use",
+          "url": "https://www.youtube.com/watch?v=jf1wb4L-5nw"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
+      "titulo": "Educational songs and videos for children",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "TheBazillions",
+        "url": "https://www.youtube.com/watch?v=Y_E-N5y1r7g"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Pizza Party + More",
+          "url": "https://www.youtube.com/watch?v=4icFRz0T0wM"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Fun English The Body Class",
+          "url": "https://www.youtube.com/watch?v=UcLhNv-1hHQ"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Harry And Larry Pretend Play Carpenter",
+          "url": "https://www.youtube.com/watch?v=WFAt4mFEdCw"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Letter A Song",
+          "url": "https://www.youtube.com/watch?v=_6Jz0Jp4XBY&list=PLdSZCpxQMJcMxklv8VHzaD_15d1VUx8Rl"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Silent e",
+          "url": "https://www.youtube.com/watch?v=mnanlcyRuuI&list=PLdSZCpxQMJcMxklv8VHzaD_15d1VUx8Rl&index=3"
+        },
+        {
+          "titulo": "Nessy Writing Strategy | Irregular Verbs",
+          "url": "https://www.youtube.com/watch?v=aj632WmQnZc "
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Study English in Ireland",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": " ",
+        "url": " "
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "ISE Waterford",
+          "url": "https://www.youtube.com/watch?v=oIGAfG8T9i4"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "ISE Live English Courses",
+          "url": "https://www.youtube.com/watch?v=0X_tf5B9qiI"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Por que todos deveriam sair do Brasil?",
+          "url": "https://www.youtube.com/watch?v=RAc2_clhWRk&feature=youtu.be"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Coisas que pensamos que só acontecem com os outros",
+          "url": "https://www.youtube.com/watch?v=QrakjIIdAnA"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Intercâmbio em Galway, Irlanda",
+          "url": "https://www.youtube.com/watch?v=rFs19VEcIJ0&feature=youtu.be"
         }
       ]
     }
