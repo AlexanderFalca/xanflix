@@ -19,11 +19,7 @@ function Home() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={
-<<<<<<< HEAD
           'Waterford is the perfect destination to enjoy the outdoors as it’s located in the sunny southeast and has a diverse and beautiful landscape of coastline, beaches, mountains, rivers, and woodland.'
-=======
-          'O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!'
->>>>>>> 7bc6f9b3770ebe459239b4bc62a2a7670773471b
         }
       />
 
@@ -37,10 +33,6 @@ function Home() {
 
       <Carousel category={dadosIniciais.categorias[4]} />
 
-<<<<<<< HEAD
-=======
-      <Carousel category={dadosIniciais.categorias[5]} />
->>>>>>> 7bc6f9b3770ebe459239b4bc62a2a7670773471b
 
       <Footer />
     </AppWrapper>
